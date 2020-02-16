@@ -1,0 +1,15 @@
+.spacer {
+  flex: 1;
+}
+
+nav {
+  display: flex;
+
+  .menu-item {
+    padding: 5px;
+
+    a {
+      color: white;
+    }
+  }
+}

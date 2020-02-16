@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    & > :not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+.active {
+    & ::ng-deep .mat-button-focus-overlay {
+        opacity: .04;
+    }
+}
